@@ -4,6 +4,8 @@
 import { LitElement, TemplateResult, html, customElement, css, CSSResult, PropertyDeclarations } from 'lit-element';
 import { CatalogData } from '../data/CatalogData';
 import { ItemModel } from '../models/ItemModel';
+import { NavigationService } from '../services/NavigationService';
+import { MapView } from './views/map-view';
 
 @customElement('shopping-task')
 export class ShoppingTask extends LitElement {
@@ -81,6 +83,11 @@ export class ShoppingTask extends LitElement {
                 opacity: var(--nav-opacity);
                 text-decoration: line-through;
             }
+            
+            .task--location {
+                margin-right: 20px;
+                cursor: pointer;
+            }
         `;
     }
 
@@ -99,6 +106,9 @@ export class ShoppingTask extends LitElement {
                     <span class="task--price">$${this.taskItem?.price}</span>
                     <span class="task--strike-price">$${this.taskItem?.strikePrice}</span>
                 </div>
+            </div>
+            <div class="task--location" @click=${() => NavigationService.navigate(MapView)}>
+                <img src="./assets/location-list.png" />
             </div>
         `;
     }

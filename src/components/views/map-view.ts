@@ -3,6 +3,7 @@
 
 import { html, customElement, TemplateResult, CSSResult, css } from 'lit-element';
 import { BaseView } from './BaseView';
+import { NavigationService } from '../../services/NavigationService';
 
 @customElement('map-view')
 export class MapView extends BaseView {
@@ -58,11 +59,23 @@ export class MapView extends BaseView {
 
             .map {
                 overflow: hidden;
+                padding: 24px;
             }
 
             .map > img {
                 height: auto;
-                width: 100%;
+                width: calc(100% - var(--nav-height));
+            }
+
+            .go-back {
+                position: absolute;
+                margin: 12px;
+                cursor: pointer;
+                opacity: .5;
+            }
+
+            .go-back:hover {
+                opacity: 1;
             }
         `;
     }
@@ -84,6 +97,9 @@ export class MapView extends BaseView {
             </div>
             <div class="map">
                 <img src="./assets/map.png" />
+            </div>
+            <div class="go-back" @click=${() => NavigationService.goBack()}>
+                <img src="./assets/back.png" />
             </div>
         `;
     }

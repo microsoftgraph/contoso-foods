@@ -72,12 +72,9 @@ export class ItemDetailsView extends BaseView {
             }
 
             .nutrition {
-                width: 25%;
+                width: 135px;
                 height: auto;
-            }
-
-            .nutrition img {
-
+                max-height: 384px;
             }
 
             .description__part--title {

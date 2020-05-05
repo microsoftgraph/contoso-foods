@@ -133,29 +133,25 @@ export class ListTask extends LitElement {
 
     firstUpdated(): void {
         this._quantitySub = this.shadowRoot.querySelector('.quantity--sub');
-        this._quantitySub.addEventListener('click', async () => {
-            const oldVal = this.taskItem.quantity;
-            const newVal = Math.max(0, this.taskItem.quantity - 1);
-
-            if (oldVal !== newVal) {
-                this.taskItem.quantity = newVal;
-                const updatedItem = await CatalogData.updateAsync(this.taskItem);
-                this.dataContext = updatedItem.dataContext;
-                this.requestUpdate();
-            }
-        });
+        this._quantitySub.addEventListener('click', (e) => this.updateQuantity(e, -1));
 
         this._quantityAdd = this.shadowRoot.querySelector('.quantity--add');
-        this._quantityAdd.addEventListener('click', async () => {
-            const oldVal = this.taskItem.quantity;
-            const newVal = Math.min(99, this.taskItem.quantity + 1);
+        this._quantityAdd.addEventListener('click', (e) => this.updateQuantity(e, +1));
+    }
 
-            if (oldVal !== newVal) {
-                this.taskItem.quantity = newVal;
-                const updatedItem = await CatalogData.updateAsync(this.taskItem);
+    private updateQuantity(e: Event, modifier: number) {
+        const oldVal = this.taskItem.quantity;
+        const newVal = Math.min(99, Math.max(1, this.taskItem.quantity + modifier));
+        
+        if (oldVal !== newVal) {
+            this.taskItem.quantity = newVal;
+            CatalogData.updateAsync(this.taskItem).then(updatedItem => {
                 this.dataContext = updatedItem.dataContext;
                 this.requestUpdate();
-            }
-        });
+            });
+        }
+
+        e.preventDefault();
+        e.stopPropagation();
     }
 }

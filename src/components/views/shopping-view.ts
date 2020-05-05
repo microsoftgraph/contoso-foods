@@ -8,6 +8,7 @@ import { NavigationService } from '../../services/NavigationService';
 import { ListView } from './list-view';
 import { NavPanel } from '../nav-panel';
 import { ProviderState, Providers } from '@microsoft/mgt';
+import { MapView } from './map-view';
 
 @customElement('shopping-view')
 export class ShoppingView extends BaseView {
