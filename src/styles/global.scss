@@ -1,0 +1,54 @@
+html,
+body {
+    --font-family: Ropa Sans;
+    --nav-height: 74px;
+    --nav-font-size: 16px;
+    --nav-color: #121111;
+    --nav-selected-color: #121111;
+    --nav-opacity: 0.6;
+    --nav-selected-opacity: 1;
+    --nav-font-weight: bold;
+    --title-font-size: 28px;
+    --title-font-color: #000000;
+    --accent-color: #0078d4;
+    --view-background-color: #f3f5f7;
+    --map-address-font-size: 16px;
+    --task-selected-color: #d9e8f4;
+    --task-title-font-size: 22px;
+    --task-image-height: 100px;
+    --task-image-width: 100px;
+    --shopping-task-width: 629px;
+
+    margin: 0;
+    height: 100%;
+    background-color: var(--view-background-color);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: calc(100% - var(--nav-height));
+}
+
+view-host {
+    max-width: 800px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    html,
+    body {
+        --nav-height: 50px;
+        --nav-font-size: 12px;
+        --title-font-size: 20px;
+        --map-address-font-size: 14px;
+        --task-title-font-size: 14px;
+        --task-image-height: 80px;
+        --task-image-width: 80px;
+        --shopping-task-width: 359px;
+    }
+}
+
+* {
+    user-select: none;
+}

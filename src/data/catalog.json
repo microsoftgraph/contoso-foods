@@ -1,0 +1,349 @@
+{
+    "items": [
+        {
+            "title": "Bananas, One Bunch (min. 5 ct)",
+            "name": "Banana",
+            "description-parts": [
+                {
+                    "lines": [
+                        "Ships from and sold by Contoso Foods.",
+                        "One bunch contains approximately 5-7 bananas.",
+                        "Grown in Ecuador or Costa Rica or Guatemala",
+                        "Product is shipped right before it's ready to eat but it may take up to one day to ripen.",
+                        "Color may vary from slightly green to yellow"
+                    ]
+                },
+                {
+                    "title": "Ingredients",
+                    "lines": ["Banana, Nutrifacts based on USDA Food A Pedia for 1 medium yellow banana"]
+                },
+                {
+                    "title": "Allergen Info",
+                    "lines": ["No known allergens"]
+                }
+            ],
+            "price": "1.09",
+            "strike-price": "2.20",
+            "ingredients": "Bananas",
+            "allergens": "None",
+            "hero": "./assets/products/banana-hero.png",
+            "thumbnail": "./assets/products/banana-icon.png"
+        },
+        {
+            "title": "Thomas' Plain Mini Bagels, 10 Count",
+            "name": "Bagel",
+            "description-parts": [
+                {
+                    "lines": [
+                        "Offering a smaller size than a traditional bagel, Thomas' Plain Mini Bagels are perfect for kids or as a small meal or snack. These pre-sliced bagels can be toasted with your favorite spread, used to create pizza bagels, or enjoyed on their own.",
+                        "Each mini bagel contains 120 calories and 0.5 grams of fat. They are a cholesterol-free food with 0g trans fat per serving and no high-fructose corn syrup."
+                    ]
+                },
+                {
+                    "title": "Ingredients",
+                    "lines": [
+                        "Unbleached Enriched Wheat Flour [Flour, Malted Barley Flour, Reduced Iron, Niacin, Thiamin Mononitrate (Vitamin B1), Riboflavin (Vitamin B2), Folic Acid], Water, Sugar, Yeast, Salt, Monoglycerides, Wheat Gluten, Preservatives (Calcium Propionate, Sorbic Acid), Cornmeal, Cellulose Gum, Xanthan Gum, Cornstarch, Soy Flour."
+                    ]
+                }
+            ],
+            "price": "3.48",
+            "strike-price": "4.50",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/bagel-hero.png",
+            "thumbnail": "./assets/products/bagel-icon.png"
+        },
+        {
+            "title": "Kerrygold Pure Irish Butter, Salted, 8oz",
+            "name": "Butter",
+            "description-parts": [
+                {
+                    "lines": [
+                        "Kerrygold butter and cheeses are made with milk from grass-fed cows that are raised the natural way—free of growth hormones and nurtured on small, family run Irish dairy farms. Ireland's mild, temperate climate and abundant rainfall provides natural irrigation for the land and an ideal environment for our grass-fed herds to graze.",
+                        "The all-natural milk our cows produce is what makes our products so flavorful and creamy. We put the same care, quality, and craft into our all-natural cheeses, as our beloved, richly flavorful, pure Irish butter."
+                    ]
+                },
+                {
+                    "title": "Butter",
+                    "lines": [
+                        "Whether you prefer our butter salted or unsalted, in sticks, spreadable or reduced fat, you can be assured it's made with rich cream made from grass-fed cows for a creamy, complex flavor."
+                    ]
+                }
+            ],
+            "price": "3.96",
+            "strike-price": "4.49",
+            "quantity": 2,
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/butter-hero.png",
+            "thumbnail": "./assets/products/butter-icon.png"
+        },
+        {
+            "title": "Organic Croutons, Caesar, 4.5 oz",
+            "name": "Crouton",
+            "description-parts": [
+                {
+                    "lines": [
+                        "Our standards are what set us apart, and our quality is what keeps us stocking pantries, fridges and freezers with the best natural and organic 365 Everyday Value products every day.",
+                        "We get excited about things like whole grain flours, shade-grown coffee, organic milk and frozen veggies because we know that you care about cooking with the very best ingredients — without compromising on the ingredients you don’t want. (All 365 Everyday Value products meet Whole Foods Market quality standards.)"
+                    ]
+                },
+                {
+                    "title": "Legal Disclaimer",
+                    "lines": [
+                        "Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition."
+                    ]
+                }
+            ],
+            "price": "1.45",
+            "strike-price": "1.50",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/caesar-hero.png",
+            "thumbnail": "./assets/products/caesar-icon.png"
+        },
+        {
+            "title": "Premium Deli Cheese, 1 lb",
+            "name": "Cheese",
+            "description-parts": [
+                {
+                    "lines": [
+                        "This delicious cheese is known for its sweet, nutty flavor, pale yellow color, and ability to go with anything. Layer our Swiss natural cheese slices onto sandwiches and burgers, or enjoy with a side of apples, pears, or grapes.",
+                        "The mellow, nutty flavor of Sargento Swiss cheese slices comes in a range of sharpness to lend a tangy note to turkey or reuben sandwiches, hamburgers, wraps and the ultimate BLT."
+                    ]
+                },
+                {
+                    "title": "Slice Versatility",
+                    "lines": [
+                        "The mellow, nutty flavor of Sargento Swiss chesse slices comes in a range of sharpness to lend a tangy note to turkey or reuben sandwiches, hamburgers, wraps and the ultimate BLT."
+                    ]
+                }
+            ],
+            "price": "1.45",
+            "strike-price": "1.50",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/cheese-hero.png",
+            "thumbnail": "./assets/products/cheese-icon.png"
+        },
+        {
+            "title": "Organic Ruby Marsh Grapefruit, One Large",
+            "name": "Grapefruit",
+            "description-parts": [
+                {
+                    "lines": [
+                        "With roots in the West Indies, this citrus fruit got its name from the way it grows in clusters, like grapes, on trees."
+                    ]
+                },
+                {
+                    "title": "How to ripen",
+                    "lines": [
+                        "Like the rest of its citrus cousins, grapefruit is harvested when ripe, so it's ready to enjoy as soon as it arrives."
+                    ]
+                },
+                {
+                    "title": "How to store",
+                    "lines": ["It's best to keep this tart, juicy fruit in the refrigerator."]
+                },
+                {
+                    "title": "How to prep",
+                    "lines": [
+                        "Most people love to dig into half a grapefruit with their morning meal, but it is also a prime candidate for a technique called supreming."
+                    ]
+                }
+            ],
+            "price": "0.99",
+            "strike-price": "1.20",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/grapefruit-hero.png",
+            "thumbnail": "./assets/products/grapefruit-icon.png"
+        },
+        {
+            "title": "Chobani Non-fat Greek Yogurt, Plain 32oz",
+            "name": "Greek Yogurt",
+            "description-parts": [
+                {
+                    "lines": [
+                        "Deliciously thick and creamy Chobani Greek Yogurt made the old-world way. At least 19g of protein/serving, contains live and active cultures.",
+                        "We’ve been on a mission since day one: to provide better food for more people. We use an authentic straining process which makes our yogurt extra thick and creamy, giving it twice as much protein as regular, unstrained yogurts† (see product chart for specific protein content information)."
+                    ]
+                },
+                {
+                    "title": "Ingredients",
+                    "lines": [
+                        "Cultured Pasteurized Nonfat Milk, Cream, Live And Active Cultures: S. Thermophilus, L. Bulgaricus, L. Acidophilus, Bifidus And L. Casei."
+                    ]
+                },
+                {
+                    "title": "Directions",
+                    "lines": ["Keep refrigerated."]
+                }
+            ],
+            "price": "4.65",
+            "strike-price": "5.50",
+            "quantity": 7,
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/greek-yogurt-hero.png",
+            "thumbnail": "./assets/products/greek-yogurt-icon.png"
+        },
+        {
+            "title": "Organic Green Onion, One Bunch",
+            "name": "Green Onion",
+            "description-parts": [
+                {
+                    "lines": [
+                        "One of the first foods on the planet to be cultivated, its roots date back 5,000 years. Onions like to breathe, so keep them in a well-ventilated area like your pantry. Don't refrigerate or place in plastic bags. Use within a month."
+                    ]
+                },
+                {
+                    "title": "How to store",
+                    "lines": [
+                        "Onions like to breathe, so keep them in a well-ventilated area like your pantry. Don't refrigerate or place in plastic bags. Use within a month."
+                    ]
+                },
+                {
+                    "title": "Chef's tip",
+                    "lines": [
+                        "Turn caramelized onions into chutney by adding a splash of vinegar. This sweet-tart condiment goes well with roast chicken, pork chops and brightens up burgers."
+                    ]
+                }
+            ],
+            "price": "0.99",
+            "strike-price": "1.30",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/green-onion-hero.png",
+            "thumbnail": "./assets/products/green-onion-icon.png"
+        },
+        {
+            "title": "Sabra, Classic Hummus, 10 oz",
+            "name": "Hummus",
+            "description-parts": [
+                {
+                    "lines": [
+                        "Sabra Hummus Dip starts with fresh chickpeas (aka garbanzo beans), tahini and a touch of garlic. Then we blend it smooth and add bold flavors; perfect for snacking, cooking, and of course, sharing. Your only question will be: 'How do I get that last bit from the bottom of the tub?'",
+                        "Sure, we could tell you all about the deliciously simple ingredients in every batch of Sabra. But we believe our bold, flavorful taste speaks for itself. We think you will, too."
+                    ]
+                },
+                {
+                    "title": "Gluten Free",
+                    "lines": [
+                        "Our Hummus is inherently gluten free. It does not contain proteins found in grains like wheat, rye, spelt and barley)."
+                    ]
+                },
+                {
+                    "title": "Directions",
+                    "lines": ["Keep Refrigerated."]
+                }
+            ],
+            "price": "3.45",
+            "strike-price": "4.50",
+            "quantity": 2,
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/hummus-hero.png",
+            "thumbnail": "./assets/products/hummus-icon.png"
+        },
+        {
+            "title": "Hershey's Kit Kat Raspberry, 9 oz",
+            "name": "KitKat",
+            "description-parts": [
+                {
+                    "lines": [
+                        "KIT KAT® Raspberry + Crème Miniatures introduce a great new pairing to Valentine’s Day. This delicious combination of crisp wafers in raspberry flavored white crème brings perfect matches to a whole new level.",
+                        "And with a 9-ounce bag of individually wrapped treats, you’ll have ample opportunity to enjoy this couple’s company."
+                    ]
+                },
+                {
+                    "title": "Warnings",
+                    "lines": ["Contains Wheat, Milk and Soy; May Contain Peanuts"]
+                }
+            ],
+            "price": "3.45",
+            "strike-price": "4.50",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/kitkat-hero.png",
+            "thumbnail": "./assets/products/kitkat-icon.png"
+        },
+        {
+            "title": "Organic Lemons, 2 lbs",
+            "name": "Lemon",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/lemon-hero.png",
+            "thumbnail": "./assets/products/lemon-icon.png"
+        },
+        {
+            "title": "Wonderful Halos Mandarins, 3 lbs",
+            "name": "Mandarin",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/mandarin-hero.png",
+            "thumbnail": "./assets/products/mandarin-icon.png"
+        },
+        {
+            "title": "Yellow Onion, One Large",
+            "name": "Onion",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/onion-hero.png",
+            "thumbnail": "./assets/products/onion-icon.png"
+        },
+        {
+            "title": "Dixie Everyday Simply White Paper Plates",
+            "name": "Plates",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/plates-hero.png",
+            "thumbnail": "./assets/products/plates-icon.png"
+        },
+        {
+            "title": "Red Bell Pepper, One Medium",
+            "name": "Red Pepper",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/red-pepper-hero.png",
+            "thumbnail": "./assets/products/red-pepper-icon.png"
+        },
+        {
+            "title": "Daisy Sour Cream, 16 oz",
+            "name": "Sour Cream",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/sour-cream-hero.png",
+            "thumbnail": "./assets/products/sour-cream-icon.png"
+        },
+        {
+            "title": "Strawberries, 1 lb",
+            "name": "Strawberry",
+            "description": "Ships from and sold by Contoso Foods.",
+            "price": "1.00",
+            "strike-price": "2.00",
+            "ingredients": "",
+            "allergens": "None",
+            "hero": "./assets/products/strawberry-hero.png",
+            "thumbnail": "./assets/products/strawberry-icon.png"
+        }
+    ]
+}
