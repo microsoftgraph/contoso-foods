@@ -2,6 +2,9 @@
 
 _Contoso Foods_ is a sample web application built around a consumer grocery shopping experience, powered by the [Microsoft Graph Toolkit](http://aka.ms/mgt).
 
+![My List view of Contoso Foods app](./screenshots/contoso-foods-list.png)
+![Go Shopping view of Contoso Foods app](./screenshots/contoso-foods-shopping.png)
+
 ## Running the sample
 
 Run the following commands to host the sample locally:
