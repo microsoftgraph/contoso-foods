@@ -33,7 +33,7 @@
         "webpack-dev-server": "^3.10.1"
     },
     "dependencies": {
-        "@microsoft/mgt": "file:microsoft-mgt-1.2.4.tgz",
+        "@microsoft/mgt": "1.4.0-preview.1",
         "msal": "^1.2.1"
     }
 }
