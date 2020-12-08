@@ -3,9 +3,8 @@
 
 import { ListView, SplashView, ViewHost } from './components';
 import { NavigationService } from './services/NavigationService';
-// import { MsalProvider } from './providers/MsalProvider';
-import { Providers } from '@microsoft/mgt/dist/es6/Providers';
-import { LoginType, ProviderState, MsalProvider } from '@microsoft/mgt/dist/es6/providers/providers';
+import { Providers, LoginType, ProviderState } from '@microsoft/mgt-element';
+import { MsalProvider } from '@microsoft/mgt-msal-provider';
 
 export class App {
     /**
