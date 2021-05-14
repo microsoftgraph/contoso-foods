@@ -30,10 +30,9 @@
         "typescript": "^3.7.4",
         "webpack": "^4.41.5",
         "webpack-cli": "^3.3.10",
-        "webpack-dev-server": "^3.10.1"
+        "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
-        "@microsoft/mgt": "2.0.0-rc.1",
-        "msal": "^1.2.1"
+        "@microsoft/mgt": "2.2.0-preview.cfd7620"
     }
 }
