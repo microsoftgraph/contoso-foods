@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "start": "webpack-dev-server --config webpack.dev.config.js --https",
+        "start": "webpack-dev-server --config webpack.dev.config.js",
         "build": "webpack --config webpack.dev.config.js",
         "lint": "tsc --noEmit && eslint src/**/*.{js,ts,tsx} --quiet --fix"
     },
@@ -33,6 +33,6 @@
         "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
-        "@microsoft/mgt": "2.2.0-preview.cfd7620"
+        "@microsoft/mgt": "2.3.0-preview.16b6ac0"
     }
 }
